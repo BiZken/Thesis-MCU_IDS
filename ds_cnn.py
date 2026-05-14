@@ -150,7 +150,7 @@ sep_conv_qconfig = Default8BitQuantizeConfig(
 
 
 
-#Yoinked the QAT from the CBAM, changed some stuff but works now /anton jew jew jew jew
+#Yoinked the QAT from the CBAM, changed some stuff but works now /anton
 
 def apply_quantization(layer):
     if isinstance(layer, keras.layers.SeparableConv1D):
